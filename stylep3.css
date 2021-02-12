@@ -1,0 +1,89 @@
+.lt1{
+	position: absolute;
+	left: 90%;
+	font-family: titulo1;
+	font-size: 200%;
+	font-style: none;
+}
+
+.lt2{
+	position: absolute;
+	left: 2%;
+	font-family: titulo1;
+	font-size: 200%;
+	font-style: none;
+}
+
+.c1{
+	position: absolute;
+	width: 1%;
+	height: 2%;
+	border-radius: 100%;
+	border-style: none;
+	left: 88.5%;
+}
+.c2{
+	position: absolute;
+	width: 1%;
+	height: 2%;
+	border-radius: 100%;
+	border-style: none;
+	left: 1%;
+}
+@font-face{
+	font-family: titulo1;
+	src: url(titulo.ttf);
+}
+
+.cuadro{
+	width: 15%;
+	height: 25%;
+	position: absolute;
+	left: 45%;
+	top: 55%;
+}
+
+.text{
+	position: absolute;
+	top: 220%;
+	font-size: 360%;
+	color: #ffffff;
+	font-family: titulo1;s
+
+}
+
+.text2{
+	position: absolute;
+	top: 320%;
+	font-size: 660%;
+	color:#ECB4BF;
+	font-family: titulo1;
+	left: 35%;
+
+}
+
+.ifc{
+	position: absolute;
+	top: 336%;
+	left: 26%;
+	width: 20%;
+	height: 35%;
+	background-color: #FDF3B8;;
+	border-style: none;
+	border-radius: 20%;
+	box-shadow: 10px 10px 5px #FDF3B8;
+	font-family: titulo1;
+}
+
+.whilec{
+	position: absolute;
+	top: 336%;
+	left: 58%;
+	width: 20%;
+	height: 35%;
+	background-color: #FDF3B8;;
+	border-style: none;
+	border-radius: 20%;
+	box-shadow: 10px 10px 5px #FDF3B8;
+	font-family: titulo1;
+}

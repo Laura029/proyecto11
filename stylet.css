@@ -1,0 +1,329 @@
+.central{
+	position: absolute;
+	top: 1%;
+	left: -1%;
+	width: 101%;
+	height: 98%;
+	background-color: #829DA6;
+}
+
+.central2{
+	position: absolute;
+	top: 100%;
+	left: -1%;
+	width: 101%;
+	height: 98%;
+	background-color: #D2BBD5;
+}
+.central3{
+	position: absolute;
+	top: 200%;
+	left: -1%;
+	width: 101%;
+	height: 98%;
+	background-color: #FDF3B8;
+}
+
+.central4{
+	position: absolute;
+	top: 299%;
+	left: -1%;
+	width: 101%;
+	height: 98%;
+	background-color: #BBF2E1;
+}
+
+.central5{
+	position: absolute;
+	top: 399%;
+	left: -1%;
+	width: 101%;
+	height: 98%;
+	background-color: #F2BBBB;
+}
+
+.titulo{
+	position: absolute;
+	top: 5%;
+	left: 42%;
+	color: white;
+	font-family:titulo;
+	font-size: 800%;
+}
+.titulo1{
+	position: absolute;
+	top: 16%;
+	left: 32%;
+	color: white;
+	font-family:titulo;
+	font-size: 800%;
+}
+.titulo2{
+	position: absolute;
+	top: 16%;
+	left: 67%;
+	color: white;
+	font-family:titulo2;
+	font-size: 800%;
+}
+
+.titulo3{
+	position: absolute;
+	top: 102%;
+	left: 25%;
+	color: white;
+	font-family:titulo;
+	font-size: 800%;
+}
+.t3li{
+	position: absolute;
+	top: 120%;
+	left: 15%;
+	width: 35%;
+	height: 15%;
+	background-color: #ffffff;
+	z-index: 2;
+}
+
+.t3lii{
+	position: absolute;
+	top: 120%;
+	left: 135%;
+	width: 85%;
+	height: 245%;
+	background-color: #fff00f;
+	z-index: 1;
+	display: none;
+
+}
+
+.t3li:active .t3lii{
+	display: block;
+}
+
+.t3li2{
+	position: absolute;
+	top: 136%;
+	left: 15%;
+	width: 35%;
+	height: 25%;
+	background-color: #ffffff;
+	z-index: 1;
+}
+
+.t3lii2{
+	position: absolute;
+	top: -15%;
+	left: 135%;
+	width: 85%;
+	height: 170%;
+	background-color: #fff00f;
+	z-index: 2;
+	display: none;
+
+}
+
+.t3li2:active .t3lii2{
+	display: block;
+
+}
+.t3li3{
+	position: absolute;
+	top: 162%;
+	left: 15%;
+	width: 35%;
+	height: 30%;
+	background-color: #ffffff;
+	z-index: 1;
+}
+
+.t3lii3{
+	position: absolute;
+	top: -105%;
+	left: 135%;
+	width: 85%;
+	height: 170%;
+	background-color: #fff00f;
+	z-index: 2;
+	display: none;
+
+}
+
+.t3li3:active .t3lii3{
+	display: block;
+
+}
+
+
+.titulo4{
+	position: absolute;
+	top: 200%;
+	left: 40%;
+	color: white;
+	font-family:titulo;
+	font-size: 800%;
+}
+
+.titulo5{
+	position: absolute;
+	top: 305%;
+	left: 23%;
+	color: white;
+	font-family:titulo;
+	font-size: 800%;
+}
+
+.titulo6{
+	position: absolute;
+	top: 405%;
+	left: 45%;
+	color: white;
+	font-family:titulo;
+	font-size: 800%;
+}
+
+
+@font-face{
+	font-family: titulo;
+	src: url(titulo1.ttf);
+}
+@font-face{
+	font-family: titulo2;
+	src: url(mas.ttf);
+}
+
+
+.bt2{
+	position: absolute;
+	top: 36%;
+	left: 30%;
+	width: 10%;
+	height: 5%;
+	background-color: #ffffff;
+	z-index: 1;
+	color: #07517E;
+	font-family: titulo1;
+	font-size: 180%;
+	animation-name: boton;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	border-style: solid;
+	border-color: #FD1532; 
+}
+
+.bt2:hover{
+	position: absolute;
+	top: 36%;
+	left: 30%;
+	width: 10%;
+	height: 5%;
+	background-color: #9CA4A8;
+	z-index: 1;
+	color: #ffffff;
+}
+
+.bt3{
+	position: absolute;
+	top: 36%;
+	left: 41.5%;
+	width: 10%;
+	height: 5%;
+	background-color: #ffffff;
+	z-index: 1;
+	color: #07517E;
+	font-family: titulo1;
+	font-size: 180%;
+	animation-name: boton;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	border-style: solid;
+	border-color: #FD1532; 
+}
+
+
+.bt3:hover{
+	position: absolute;
+	top: 36%;
+	left: 41.5%;
+	width: 10%;
+	height: 5%;
+	background-color: #9CA4A8;
+	z-index: 1;
+	color: #ffffff;
+}
+.bt4{
+	position: absolute;
+	top: 36%;
+	left: 53%;
+	width: 10%;
+	height: 5%;
+	background-color: #ffffff;
+	z-index: 1;
+	color: #07517E;
+	font-family: titulo1;
+	font-size: 180%;
+	animation-name: boton;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	border-style: solid;
+	border-color: #FD1532; 
+}
+
+
+.bt4:hover{
+	position: absolute;
+	top: 36%;
+	left: 53%;
+	width: 10%;
+	background-color: #9CA4A8;
+	z-index: 1;
+	color: #ffffff;
+}
+.bt5{
+	position: absolute;
+	top: 36%;
+	left: 64%;
+	width: 10%;
+	height: 5%;
+	background-color: #ffffff;
+	z-index: 1;
+	color: #07517E;
+	font-family: titulo1;
+	font-size: 180%;
+	animation-name: boton;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	border-style: solid;
+	border-color: #FD1532; 
+}
+
+
+.bt5:hover{
+	position: absolute;
+	top: 36%;
+	left: 64%;
+	width: 10%;
+	background-color: #9CA4A8;
+	z-index: 1;
+	color: #ffffff;
+}
+
+.t{
+	color: #07517E;
+	font-family: titulo1;
+	font-size: 20%;
+}
+@font-face{
+	font-family: titulo1;
+	src: url(titulo.ttf);
+}
+
+@keyframes boton{
+	0%{ border-color: #FD1532; }
+	16%{ border-color: #FAED27; }
+	32%{ border-color: #55FF00; }
+	48%{ border-color: #00FFC5; }
+	64%{ border-color: #0036FF; }
+	80%{ border-color: #4D00FF; }
+	96%{ border-color: #F300FF; }
+}
